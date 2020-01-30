@@ -1,0 +1,144 @@
+:root {
+  --banner-text-color: #ffffff;
+  --link-color: #ff4e50;
+  --title-color: #333333;
+  --description-color: #8f8f8f;
+  --red-color: #ff4e50;
+  --yellow-color: #ffa507;
+  --green-color: #1cd7ad;
+  --blue-color: #4e73db;
+
+  --first-font: 'Montserrat', sans-serif;
+  --second-font: 'Roboto', sans-serif;
+}
+
+/* //////////////// */
+.banner {
+  background-image: url(../IMG/desktop-baner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 230px;
+
+  animation-name: banner;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav__link {
+  text-decoration: none;
+  font-family: var(--first-font);
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+  font-weight: bold;
+  color: var(--banner-text-color);
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus {
+  border: solid 2px;
+  border-radius: 20px;
+}
+
+.site-logo {
+  font-family: var(--first-font);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--banner-text-color);
+  margin-right: auto;
+}
+
+/* hero */
+.hero {
+}
+
+.hero__title {
+  font-family: var(--first-font);
+  font-size: 52px;
+  font-weight: bold;
+  color: var(--banner-text-color);
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.hero__description {
+  font-family: var(--second-font);
+  font-size: 24px;
+  color: var(--banner-text-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero__link {
+  font-family: var(--first-font);
+  font-size: 14px;
+  color: var(--banner-text-color);
+  padding: 5px 20px 5px 20px;
+  border: solid 2px #ff4e50;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  width: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__link:hover,
+.hero__link:focus {
+  background-color: transparent;
+}
+
+/* animations */
+
+/* @keyframes banner {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* ////       MAIN        //// */
+.main-title {
+  font-family: var(--first-font);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.main-menu {
+  display: flex;
+}
+
+.main-item {
+}
