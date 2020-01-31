@@ -141,4 +141,66 @@
 }
 
 .main-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.main-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.item__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.item__title {
+  font-family: var(--first-font);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--title-color);
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.item__description {
+  font-family: var(--second-font);
+  font-size: 14px;
+  color: var(--description-color);
+  text-align: center;
+}
+
+.main__link {
+  font-family: var(--first-font);
+  font-size: 14px;
+  color: var(--banner-text-color);
+  padding: 5px 20px 5px 20px;
+  border: solid 2px #ff4e50;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  width: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__link:hover,
+.main__link:focus {
+  background-color: transparent;
+  color: var(--link-color);
+}
+
+.img {
+  align-items: center;
+  justify-content: center;
 }
