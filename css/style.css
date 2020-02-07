@@ -399,16 +399,14 @@
     width: 220px;
   }
 
-  .main-item:not(:last-child) {
-    margin-right: 35px;
-  }
-
-  .main-item:nth-child(1) {
-    margin-bottom: 60px;
-  }
-
+  .main-item:nth-child(1),
   .main-item:nth-child(2) {
     margin-bottom: 60px;
+  }
+
+  .main-item:nth-child(1),
+  .main-item:nth-child(3) {
+    margin-right: 50px;
   }
 
   .main__link {
