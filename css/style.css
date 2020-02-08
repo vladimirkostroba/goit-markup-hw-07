@@ -54,12 +54,14 @@
   padding: 5px 20px 5px 20px;
   font-weight: bold;
   color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  border-color: transparent;
 }
 
 .site-nav__link:hover,
 .site-nav__link:focus {
-  border: solid 2px;
-  border-radius: 20px;
+  border-color: initial;
 }
 
 .site-logo {
@@ -77,6 +79,7 @@
   font-weight: bold;
   color: var(--banner-text-color);
   text-align: center;
+  margin: 0;
 }
 
 .hero__description {
@@ -135,6 +138,7 @@
   font-size: 14px;
   color: var(--description-color);
   text-align: center;
+  margin: 0;
 }
 
 .item__card {
